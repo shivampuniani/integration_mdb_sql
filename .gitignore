@@ -1,0 +1,9 @@
+config.ini
+log_file.txt
+
+__pycache__/
+*.pyc
+
+.venv/
+env/
+venv/

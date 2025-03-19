@@ -1,0 +1,24 @@
+USE [Test_Database]
+GO
+
+/****** Object:  Table [dbo].[Test_MDB] Script Date: 07-03-2025 10:04:34 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Test_MDB](
+	[ID] [nvarchar](4) NULL,
+	[field_ID] [nvarchar](50) NULL,
+	[field_Field1] [nvarchar](50) NULL,
+	[field_data_Field_data1] [nvarchar](50) NULL,
+	[field_Field2] [nvarchar](50) NULL,
+	[field_data_Field_data2] [nvarchar](50) NULL,
+	[field_Field3] [nvarchar](50) NULL,
+	[field_data_Field_data3] [nvarchar](50) NULL,
+	[Timestamp] [smalldatetime] NULL
+) ON [PRIMARY]
+GO
+
+
