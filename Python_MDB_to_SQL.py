@@ -18,8 +18,7 @@ def get_db_config():
 test_no_track = ''
 def db_connection():
     db_config = get_db_config()
-    conn = pyodbc.connect(
-        r'DRIVER={{ODBC Driver 17 for SQL Server}};'
+    conn = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
         f'SERVER={db_config["server"]};'
         f'DATABASE={db_config["database"]};'
         f'UID={db_config["username"]};'
