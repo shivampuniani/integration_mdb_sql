@@ -23,11 +23,11 @@ Access database file: Ensure the path to your .mdb file is correct.
 Run the script:
 
 python main.py
-
-MDB-SQL-Integration-project/
-│
-├── main.py               # Your main Python program
-├── requirements.txt      # Python dependencies
-├── README.md             # Project documentation
-├── .gitignore            # Git ignore rules
-└── log_file.txt          # Log file (will be generated when running the program)
+  
+MDB-SQL-Integration-project/  
+│  
+├── main.py               # Your main Python program  
+├── requirements.txt      # Python dependencies  
+├── README.md             # Project documentation  
+├── .gitignore            # Git ignore rules  
+└── log_file.txt          # Log file (will be generated when running the program)  
