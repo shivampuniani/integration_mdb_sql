@@ -17,8 +17,8 @@ This project connects to a Microsoft Access database, retrieves data, and insert
 
 3. Configure the database connection:
 
-Update the connection strings in main.py and config.ini for both SQL Server and Access databases.
-SQL Server connection: Update the SERVER, DATABASE, UID, and PWD placeholders.
+Update the connection strings (if required in main.py) and config.ini for both SQL Server and Access databases.
+SQL Server connection: Update the SERVER, DATABASE, UID, and PWD placeholders in config.ini file.
 Access database file: Ensure the path to your .mdb file is correct.
 Run the script:
 
@@ -29,5 +29,6 @@ MDB-SQL-Integration-project/
 ├── main.py               # Your main Python program  
 ├── requirements.txt      # Python dependencies  
 ├── README.md             # Project documentation  
+├── config.ini            # config file to store and configure sql server and file data   
 ├── .gitignore            # Git ignore rules  
 └── log_file.txt          # Log file (will be generated when running the program)  
